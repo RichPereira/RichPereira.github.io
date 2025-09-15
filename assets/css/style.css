@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgb(255, 212, 212); 
   border-radius: 50% !important;
 }
 
@@ -79,6 +79,10 @@
   background-color: black;
 }
 
+.email:hover {
+  background-color: black;
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
@@ -116,7 +120,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #2e0f0f;
   background-color: white;
 }
 /* main body */
@@ -124,7 +128,7 @@
 /* body-color */
 
 body {
-  color: #333;
+  color: #2e0f0f;
   font-size: 18px;
 }
 
@@ -227,6 +231,9 @@ ul.side-nav li {
   padding: 0;
 }
 
+.dark-grey-red-text {
+  color: #b71c1c; 
+}
 /* ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(48, 122, 207);
@@ -275,7 +282,7 @@ ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) 
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #2e0f0f !important;
 }
 
 li.logo span {
@@ -383,12 +390,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #333;
+  color: #2e0f0f;
   border-bottom: 2px solid #ffab40;
 }
 
 .card li a:hover {
-  color: #333;
+  color: #2e0f0f;
   font-weight: 500;
 }
 
@@ -473,7 +480,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #4d0000 !important;
 }
 
 #skills .card.large {
@@ -602,7 +609,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #960000;
     height: 56px;
     line-height: 56px;
   }
