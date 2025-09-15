@@ -327,7 +327,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #ffa7a7 repeat;
   position: relative;
 }
 
@@ -562,6 +562,10 @@ small {
 /* .teal-text {
   color: #0b5e86 !important;
 } */
+
+.contact-icons-red i {
+  color: #c62828af !important; /* Use any shade of red you prefer */
+}
 
 /* .teal */
 
