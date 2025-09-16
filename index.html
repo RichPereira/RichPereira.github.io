@@ -758,7 +758,8 @@ company's long and short-term goals and commitments are met.
     let currentIndex = 0;
 
     // Insert each project as a card
-    for (let i = 0; i < projectsPerPage && i < projects.length; i++) {
+    for (let i = 0; i < projectsPerPage && i < projects.length; i++, currentIndex++) {
+      const project = projects[i];
       const col = document.createElement('div');
       col.className = 'col s12 m6 l4';
 
@@ -775,7 +776,7 @@ company's long and short-term goals and commitments are met.
             <span class="card-title red-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
             <ul>
               <li><b>Tools:</b> ${project.tools}</li>
-            ${project.accomplishments.map(item => `<li>${item}</li>`).join('')}
+              ${project.accomplishments.map(item => `<li>${item}</li>`).join('')}
             </ul>
             <div class="card-action">
               <a aria-label="Visit the GitHub repo for ${project.title}" href="${project.link}"
@@ -788,7 +789,6 @@ company's long and short-term goals and commitments are met.
         </div>
       `;
       container.appendChild(col);
-
     }
 
     // Add event listener to load more projects on button click
