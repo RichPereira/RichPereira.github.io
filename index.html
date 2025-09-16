@@ -493,7 +493,7 @@ company's long and short-term goals and commitments are met.
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text red">Projects</h3>
       <div class="container">
-        <h4 class="page-title black-text">Recent Projects</h3>
+        <h4 class="page-title black-text">Recent Projects:</h3>
         <!-- recent projects only -->
         <div class="row" id="dynamic-projects"> 
           <!-- ************* -->
@@ -754,9 +754,10 @@ company's long and short-term goals and commitments are met.
       }
     ];
 
-    // Get the container
+    // Get the container for the dynamic projects
     const container = document.getElementById('dynamic-projects');
     const projectsPerPage = 3;
+    // get the load more button
     const loadMoreBtn = document.getElementById('load-more-btn');
     let currentIndex = 0;
 
@@ -831,6 +832,7 @@ company's long and short-term goals and commitments are met.
       currentIndex++;
       loaded++;
     }
+    // Hide the button if all projects are loaded
     if (currentIndex >= projects.length) {
       loadMoreBtn.style.display = 'none';
     }
