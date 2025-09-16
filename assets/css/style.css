@@ -327,7 +327,7 @@ h3 {
 } */
 
 #intro.section {
-  background-color: hsl(0, 0%, 100%) repeat; 
+  /* background: #ffc1c1dc repeat; */
   position: relative;
 }
 
@@ -473,22 +473,6 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 
-.map-responsive {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-
-.map-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 /* main a.hoverline */
 
 /* a.hoverline:hover {
@@ -566,7 +550,7 @@ small {
 }
 
 .grey-text {
-  color: #ffffff !important;
+  color: #666 !important;
 }
 
 /* main .teal-text */
