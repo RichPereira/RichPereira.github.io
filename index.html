@@ -493,7 +493,9 @@ company's long and short-term goals and commitments are met.
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text red">Projects</h3>
       <div class="container">
-        <div class="row" id="dynamic-projects">
+        <h4 class="page-title black-text">Recent Projects</h3>
+        <!-- recent projects only -->
+        <div class="row" id="dynamic-projects"> 
           <!-- ************* -->
         </div>
         <div class="center-align" style="margin: 24px 0;">
@@ -706,7 +708,7 @@ company's long and short-term goals and commitments are met.
     const projects = [
       {
         title: "Python Games",
-        description: "Created many games using Python's Tkinter modules, including Asterapocolypse, Deal, No deal, baccarat, memory game, etc.",
+        description: "Created many games using Python's Tkinter modules, like Asterapocolypse, Deal, No deal, etc.",
         image: "/assets/img/game-console.jpg",
         link: "https://github.com/RichPereira/Python-Projects-HS-",
         tools: "Python, Tkinter",
@@ -739,11 +741,12 @@ company's long and short-term goals and commitments are met.
       },
       {
         title: "Filler Game",
-        description: "A puzzle/strategy 2-player game played on a grid of colored tiles where the objective is to fill the entire board with a single color in as few moves as possible.",
+        description: "A puzzle/strategy 2-player game played on a grid of colored tiles.",
         image: "/assets/img/color-filler.png",
         link: "https://github.com/UnicooooL/ECE243_final_project",
         tools: "VGA, DE1-SoC, C, Interrupts",
         accomplishments: [
+          "Players take turns selecting colors to flood adjacent tiles, aiming to control the majority of the board.",
           "Used HEX and LED displays to show player turns and scores.",
           "Implementeded game logic in C, interrupt setup for color changes and win condition.",
           "Used VGA for graphical display and Switch buttons for player input."
