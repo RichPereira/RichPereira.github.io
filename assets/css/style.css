@@ -327,12 +327,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #ffe1e1 repeat;
+  background: #ffd4d4 repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
+  color: rgba(228, 46, 46, 0.281);
   font-weight: 200;
   left: 0;
   position: absolute;
