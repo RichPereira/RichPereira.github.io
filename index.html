@@ -493,103 +493,11 @@ company's long and short-term goals and commitments are met.
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text red">Projects</h3>
       <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/game-console.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator red-text hoverline">Games<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Created many games using Python's Tkinter modules, including Asterapocolypse, Deal, No deal, baccarat, memory game, etc.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Tkinter</li>
-                  <li>Asterpocalypse: Control a spaceship to shoot asteroids, earn points based on size, and survive until lives run out.</li>
-                  <li>Baccarat: Bet, compare cards between player and banker, and win or lose money based on the highest score.</li>
-                  <li>Deal, No Deal: Choose and eliminate cases while deciding whether to take the banker's deal or risk for more.</li>
-                  <li>Memory Game: Match hidden image pairs as quickly as possible to score points.</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/RichPereira/Python-Projects-HS-"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
+        <div class="row" id="dynamic-projects">
+          <div class="center-align" style="margin: 24px 0;">
+            <button id="load-more-btn" class="btn red white-text">Load More</button>
           </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/tetris.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator red-text hoverline">Tetris Rush<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Classic Tetris game build using C on NIOS 11 processor on DE1-SOC FPGA board. 
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> DE1-SOC, C, Interrupts, Collision Detection logic</li>
-                  <li>Player controls geometric shapes made of four blocks that descend on the board, stacking them strategically to complete horizontal lines, earn points, and prevent the board from filling to the top, which ends the game.</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/RichPereira/tetris_rush"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/cropshield.png"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator red-text hoverline">CropShield<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Model created using PyTorch and uses CNNs and transformers to detect and identify crop diseases.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title red-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b>Pytorch, TensorFlow, Vision Transformers, HTML/CSS</li>
-                  <li>A machine learning application that accurately classifies diseases in rice, wheat, and corn using a two-stage model. It first identifies the crop type and then diagnoses specific diseases, achieving over 92% accuracy for rice and corn to help farmers prevent crop loss.</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/APS360-Summer24-Team34/Plant-Health-Detector"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        
 
           <!-- ************* -->
         </div>
@@ -704,41 +612,6 @@ company's long and short-term goals and commitments are met.
             </div>
           </div>
         </div>
-
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title red-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title red-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
       </div>
     </section>
 
@@ -827,6 +700,81 @@ company's long and short-term goals and commitments are met.
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
+    });
+  </script>
+
+  <script>
+    // Example project data
+    const projects = [
+      {
+        title: "Python Games",
+        description: "Created many games using Python's Tkinter modules, including Asterapocolypse, Deal, No deal, baccarat, memory game, etc.",
+        image: "/assets/img/game-console.jpg",
+        link: "https://github.com/RichPereira/Python-Projects-HS-",
+        tools: "Python, Tkinter",
+        accomplishments: [
+          "Asterpocalypse: Control a spaceship to shoot asteroids, earn points based on size, and survive until lives run out.",
+          "Baccarat: Bet, compare cards between player and banker, and win or lose money based on the highest score.",
+          "Deal, No Deal: Choose and eliminate cases while deciding whether to take the banker's deal or risk for more.",
+          "Memory Game: Match hidden image pairs as quickly as possible to score points."
+        ]
+      },
+      {
+        title: "Tetris Rush",
+        description: "Classic Tetris game build using C on NIOS 11 processor on DE1-SOC FPGA board.",
+        image: "/assets/img/tetris.png",
+        link: "https://github.com/RichPereira/tetris_rush",
+        tools: "DE1-SOC, C, Interrupts, Collision Detection logic",
+        accomplishments: [
+          "Player controls geometric shapes made of four blocks that descend on the board, stacking them strategically to complete horizontal lines, earn points, and prevent the board from filling to the top, which ends the game."
+        ]
+      },
+      {
+        title: "Tetris Rush",
+        description: "Model created using PyTorch and uses CNNs and transformers to detect and identify crop diseases.",
+        image: "/assets/img/cropshield.png",
+        link: "https://github.com/APS360-Summer24-Team34/Plant-Health-Detector",
+        tools: "Pytorch, TensorFlow, Vision Transformers, HTML/CSS",
+        accomplishments: [
+          "A machine learning application that accurately classifies diseases in rice, wheat, and corn using a two-stage model. It first identifies the crop type and then diagnoses specific diseases, achieving over 92% accuracy for rice and corn to help farmers prevent crop loss."
+        ]
+      }
+    ];
+
+    // Get the container
+    const container = document.getElementById('dynamic-projects');
+
+    // Insert each project as a card
+    projects.forEach(project => {
+      const col = document.createElement('div');
+      col.className = 'col s12 m6 l4';
+
+      col.innerHTML = `
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img alt="${project.title}" src="${project.image}" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator red-text hoverline">${project.title}<i class="mdi-navigation-more-vert right"></i></span>
+            <p>${project.description}</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title red-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li><b>Tools:</b> ${project.tools}</li>
+            ${project.accomplishments.map(item => `<li>${item}</li>`).join('')}
+            </ul>
+            <div class="card-action">
+              <a aria-label="Visit the GitHub repo for ${project.title}" href="${project.link}"
+                target="_blank" data-position="top" data-tooltip="View Source"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+      container.appendChild(col);
     });
   </script>
 
