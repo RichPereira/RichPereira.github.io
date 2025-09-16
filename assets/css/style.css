@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgb(136, 0, 0); 
+  border: 6px solid rgb(211, 51, 51); 
   border-radius: 50% !important;
 }
 
@@ -327,12 +327,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #ffa7a7dc repeat;
+  background: #ffc1c1dc repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: #ff8f8f;
+  color: #ffb7b7;
   font-weight: 200;
   left: 0;
   position: absolute;
