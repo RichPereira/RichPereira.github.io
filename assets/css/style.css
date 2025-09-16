@@ -16,7 +16,7 @@
 }
 
 .map-responsive {
-  margin-bottom: 32px;
+  margin-bottom: 80px;
 }
 
 .profile-pic img {
@@ -568,7 +568,7 @@ small {
 } */
 
 .contact-icons-red i {
-  color: #c62828af !important; /* Use any shade of red you prefer */
+  color: #c62828ea !important;
 }
 
 /* .teal */
