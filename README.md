@@ -20,3 +20,9 @@ This repository is a clone of https://github.com/varadbhogayata/varadbhogayata.g
 <img width="3216" height="1549" alt="image" src="https://github.com/user-attachments/assets/8b22aedf-77f5-4eb3-ae1f-1175282295f1" />
 <img width="3370" height="1662" alt="image" src="https://github.com/user-attachments/assets/41c7e84f-29e4-4c82-b25d-eec982d425eb" />
 
+## A-5
+
+<img width="3022" height="1549" alt="image" src="https://github.com/user-attachments/assets/bd12e11e-164d-4633-95e7-44a2e32702f6" />
+<img width="3361" height="1711" alt="image" src="https://github.com/user-attachments/assets/e39e682b-c906-4dee-8ae7-1861eb771db9" />
+<img width="3321" height="1735" alt="image" src="https://github.com/user-attachments/assets/5eb0f54b-a51d-4329-b8e1-7a04509ef3fd" />
+
